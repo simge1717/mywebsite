@@ -1,0 +1,198 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(207, 178, 124);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	line-height: 1.6;
+	padding: 20px;
+}
+
+h1 {
+	color: rgb(87, 55, 60);
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 36px;
+	text-align: left;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+	color: rgb(128, 59, 59);
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px;
+	margin: 0;
+}
+
+h3 {
+	color: rgb(82, 56, 6);
+	padding: 10px;
+	margin: 0;
+}
+
+.box-1 {
+	background: linear-gradient(135deg, rgb(176, 140, 140), rgb(196, 160, 160));
+	border-right: 5px rgb(86, 65, 25) solid;
+	border-bottom: 5px rgb(86, 65, 25) solid;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+	margin-bottom: 30px;
+	border-radius: 8px;
+}
+
+.container {
+	width: 85%;
+	max-width: 900px;
+	background-color: rgb(197, 172, 126);
+	color: black;
+	margin: 0 auto 30px;
+	border: 3px rgb(82, 56, 6) solid;
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.container p {
+	text-indent: 30px;
+	text-align: justify;
+	margin-bottom: 15px;
+}
+
+.box-2 {
+	width: 85%;
+	max-width: 900px;
+	background-color: rgb(197, 172, 126);
+	color: black;
+	margin: 0 auto 30px;
+	border: 3px rgb(82, 56, 6) solid;
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.box-3, .box-4, .box-5 {
+	background: linear-gradient(135deg, rgb(176, 140, 140), rgb(196, 160, 160));
+	border-radius: 8px;
+	margin: 20px 0 10px;
+	box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.categories, .categories-2 {
+	border: 2px solid rgb(82, 56, 6);
+	padding: 15px;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.3);
+	margin: 15px 0;
+}
+
+.categories ul, .categories-2 ol {
+	margin-left: 20px;
+}
+
+.categories li, .categories-2 li {
+	margin: 8px 0;
+	font-size: 1.05em;
+}
+
+.form {
+	padding: 20px;
+	text-align: center;
+	background-color: rgba(176, 140, 140, 0.3);
+	border-radius: 10px;
+	margin: 20px auto;
+	width: 85%;
+	max-width: 400px;
+}
+
+.form label {
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-right: 10px;
+	color: rgb(82, 56, 6);
+}
+
+.form select {
+	padding: 8px 15px;
+	border: 2px solid rgb(82, 56, 6);
+	border-radius: 8px;
+	background-color: rgb(197, 172, 126);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1em;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.form select:hover {
+	background-color: rgb(176, 140, 140);
+	transform: scale(1.02);
+}
+
+a {
+	color: rgb(82, 56, 6);
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 2px solid transparent;
+	transition: all 0.3s ease;
+}
+
+a:hover {
+	color: rgb(128, 59, 59);
+	border-bottom: 2px solid rgb(128, 59, 59);
+}
+
+.quote {
+	font-style: italic;
+	text-align: center;
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-left: 4px solid rgb(82, 56, 6);
+	margin: 20px 0;
+	border-radius: 5px;
+}
+
+.school-link {
+	text-align: center;
+	padding: 20px;
+	font-size: 1.1em;
+}
+
+footer {
+	text-align: center;
+	padding: 25px;
+	margin-top: 40px;
+	background: linear-gradient(135deg, rgb(176, 140, 140), rgb(196, 160, 160));
+	border-radius: 10px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+	color: rgb(82, 56, 6);
+	font-weight: bold;
+}
+
+/* Responsive Design - Mobil Uyumluluk */
+@media (max-width: 768px) {
+	body {
+		padding: 10px;
+	}
+
+	.container, .box-2 {
+		width: 95%;
+		padding: 15px;
+	}
+
+	h1 {
+		font-size: 28px;
+	}
+
+	.form {
+		width: 95%;
+	}
+}
+
+
+
+
+
