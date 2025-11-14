@@ -20,9 +20,9 @@
 			<p style="text-indent: 30px;">
 				Welcome to my personal webpage! My name is Simge, and I am originally from <a href="https://www.youtube.com/watch?v=4jRAQ_RC0QM" target="_blank">Adana</a>, Turkey, a city known for its rich culture and delicious cuisine. I am currently pursuing my studies in Computer Programming and Analysis at Valencia College. My passion for technology drives me to constantly learn new programming languages, explore innovative software solutions, and stay up-to-date with emerging trends in the tech world.
 
-In addition to my academic pursuits, I have a variety of hobbies that help me maintain a balanced lifestyle. I enjoy reading books on technology, personal development, and fiction, which allow me to broaden my perspective and spark my creativity. Sports are also an important part of my life; I play badminton twice a week at the <a href="https://www.orlandoracketsports.com/" target="_blank">Orlando Badminton Club</a>. It’s not just a way to stay active—it’s also a great opportunity to meet new people and have fun. I often invite friends to join me, and it’s completely free for anyone interested!
+In addition to my academic pursuits, I have a variety of hobbies that help me maintain a balanced lifestyle. I enjoy reading books on technology, personal development, and fiction, which allow me to broaden my perspective and spark my creativity. Sports are also an important part of my life; I play badminton twice a week at the <a href="https://www.orlandoracketsports.com/" target="_blank">Orlando Badminton Club</a>. It's not just a way to stay active—it's also a great opportunity to meet new people and have fun. I often invite friends to join me, and it's completely free for anyone interested!
 
-Family and friendships are central to who I am. I love spending quality time with my family and friends, whether it’s enjoying a meal together, exploring new places, or simply having meaningful conversations. These connections give me support and inspiration in both my personal and academic life.</p>
+Family and friendships are central to who I am. I love spending quality time with my family and friends, whether it's enjoying a meal together, exploring new places, or simply having meaningful conversations. These connections give me support and inspiration in both my personal and academic life.</p>
 <br>
 
 <p style="text-indent: 30px;">My professional goals revolve around developing strong programming skills and contributing to the technology industry in meaningful ways. I aspire to work on innovative projects that make a real difference and continuously challenge myself to grow as a developer. I firmly believe that in the fast-paced world of technology, continuous learning and adaptability are key to success.
@@ -80,8 +80,117 @@ This webpage represents one of my first steps in learning HTML and web developme
 		<br>
 		<br>
 
+		<!-- Valencia College Student Information Form -->
+		<div class="valencia-form-container">
+			<div class="valencia-logo">
+				<img src="Valencia.png" alt="Valencia Logo">
+			</div>
+			
+			<h2>Student Information Form</h2>
+			
+			<form action="#" method="post" enctype="multipart/form-data">
+				<table>
+					<tr>
+						<td>
+							<label for="firstname">First Name: <span class="required">*</span></label>
+							<input type="text" id="firstname" name="firstname" required>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<label for="lastname">Last Name: <span class="required">*</span></label>
+							<input type="text" id="lastname" name="lastname" required>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<label>Gender: <span class="required">*</span></label>
+							<div class="radio-group">
+								<div class="radio-option">
+									<input type="radio" id="male" name="gender" value="male" required>
+									<label for="male" style="margin-bottom: 0;">Male</label>
+								</div>
+								<div class="radio-option">
+									<input type="radio" id="female" name="gender" value="female" required>
+									<label for="female" style="margin-bottom: 0;">Female</label>
+								</div>
+							</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<label>Favorite Colors (select all that apply):</label>
+							<div class="checkbox-group">
+								<div class="checkbox-option">
+									<input type="checkbox" id="red" name="colors" value="red">
+									<label for="red" style="margin-bottom: 0;">Red</label>
+								</div>
+								<div class="checkbox-option">
+									<input type="checkbox" id="white" name="colors" value="white">
+									<label for="white" style="margin-bottom: 0;">White</label>
+								</div>
+								<div class="checkbox-option">
+									<input type="checkbox" id="blue" name="colors" value="blue">
+									<label for="blue" style="margin-bottom: 0;">Blue</label>
+								</div>
+							</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<label for="sport">Favorite Sport: <span class="required">*</span></label>
+							<select id="sport" name="sport" required>
+								<option value="">-- Select a Sport --</option>
+								<option value="basketball">Basketball</option>
+								<option value="soccer">Soccer</option>
+								<option value="baseball">Baseball</option>
+								<option value="football">Football</option>
+								<option value="tennis">Tennis</option>
+								<option value="swimming">Swimming</option>
+								<option value="volleyball">Volleyball</option>
+								<option value="golf">Golf</option>
+								<option value="track">Track & Field</option>
+								<option value="hockey">Hockey</option>
+							</select>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<label for="essay">Global Warming Essay:</label>
+							<textarea id="essay" name="essay" rows="20" cols="50" placeholder="Share your thoughts on global warming..."></textarea>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<label for="password">Password (max 10 characters): <span class="required">*</span></label>
+							<input type="password" id="password" name="password" maxlength="10" required>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<label for="file">Upload File:</label>
+							<input type="file" id="file" name="file">
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<input type="submit" value="Submit Form" class="submit-btn">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
 		
-		
+		<br>
+		<br>
 		
 		<div class="form">
 			<label>Grade</label>
@@ -95,7 +204,7 @@ This webpage represents one of my first steps in learning HTML and web developme
 		</div>
 		
 		<p>
-			My Project 5 Visit Link: <a href="https://simge1717.github.io/mytable/" target="_blank">Here</a>
+			My Project 5 Visit Link: <a href="https://simge1717.github.io/tabloodevim/" target="_blank">Here</a>
 		</p>
 
 		<p>
@@ -111,5 +220,4 @@ This webpage represents one of my first steps in learning HTML and web developme
 
 	</body>
 </html>
-
 
